@@ -15,7 +15,7 @@
     --shadow: 0px 16px 40px 0px rgba(143, 160, 293, 0.14);
     --bg-html: #fff1e9;
     --bg-css: #e0fdef;
-    --bg-js:#ebf0ff;
+    --bg-js: #ebf0ff;
     --bg-acessibilidade: #f6e7ff;
     --white: #fff;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
@@ -23,7 +23,7 @@
 
 }
 
-body.escuro{
+body.escuro {
     --bg-color: #313e51;
     --bg-mobile: url(./assets/images/pattern-background-mobile-dark.svg);
     --bg-desktop: url(./assets/images/pattern-background-desktop-dark.svg);
@@ -79,30 +79,30 @@ main {
     padding: 32px 24px;
 }
 
-.boas_vindas {  
+.boas_vindas {
     margin-bottom: 40px;
 }
 
-.boas_vindas h1{
+.boas_vindas h1 {
     font-size: 40px;
     font-weight: 300;
     color: var(--primary-text-color);
     margin-bottom: 16px;
 }
 
-.boas_vindas h1 strong{
+.boas_vindas h1 strong {
     font-weight: 500;
 
 }
 
-.boas_vindas p{
+.boas_vindas p {
     color: var(--secondary-text-color);
     font-size: 14px;
     line-height: 150%;
     font-style: italic;
 }
 
-.assuntos{
+.assuntos {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -129,34 +129,37 @@ main {
     border-radius: 5px;
 }
 
-.assuntos button img{
+.assuntos button img {
     width: 100%;
 
 }
 
-.botao_html div{
+.botao_html div {
     background: var(--bg-html);
 }
-.botao_css div{
+
+.botao_css div {
     background: var(--bg-css);
 }
-.botao_js div{
+
+.botao_js div {
     background: var(--bg-js);
 }
-.botao_acessibilidade div{
+
+.botao_acessibilidade div {
     background: var(--bg-acessibilidade);
 }
 
 
 
 @media(min-width: 1100px) {
-    body{
+    body {
         background: var(--bg-desktop) var(--bg-color);
         background-size: cover;
         background-repeat: no-repeat;
     }
 
-    header{
+    header {
         margin-block: 81px;
     }
 
@@ -164,21 +167,21 @@ main {
         gap: 16px;
     }
 
-    .tema img{
+    .tema img {
         width: 24px;
     }
 
-    .tema button{
+    .tema button {
         width: 48px;
         height: 28px;
     }
 
-    .tema button div{
+    .tema button div {
         width: 20px;
         height: 20px;
     }
 
-    main{
+    main {
         display: flex;
         max-width: 1160px;
         margin-inline: auto;
@@ -193,21 +196,21 @@ main {
         margin-bottom: 48px;
     }
 
-    .boas_vindas p{
+    .boas_vindas p {
         font-size: 20px;
     }
 
-    .assuntos{
+    .assuntos {
         gap: 24px;
     }
 
-    .assuntos button{
+    .assuntos button {
         font-size: 28px;
         padding: 20px;
         gap: px;
     }
 
-    .assuntos button div{
+    .assuntos button div {
         width: 56px;
         height: 56px;
         padding: 8px;
