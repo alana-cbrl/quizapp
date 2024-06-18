@@ -1,4 +1,4 @@
-let tema 
+let tema = "claro"
 export function trocarTema(body, botaoTema){
     if (localStorage.getItem("tema")){
         tema = localStorage.getItem("tema")
