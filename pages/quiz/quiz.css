@@ -11,11 +11,11 @@
     --bg-span: #f4f6fa;
     --color-span: #626c7f;
     --purple: #a729f5;
-    --purple-houver: rgba(167, 41, 245, 0.7);
+    --purple-hover: rgba(167, 41, 245, 0.7);
     --primary-text-color: #313e51;
     --secondary-text-color: #626c7f;
     --button-bg: #fff;
-    --shadow: 0px 16px 40px 0px rgba(143, 160, 293, 0.14);
+    --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
     --bg-html: #fff1e9;
     --bg-css: #e0fdef;
     --bg-js: #ebf0ff;
@@ -252,7 +252,7 @@ main {
 
 .alternativas button:hover {
 
-    background: var(--purple-houver);
+    background: var(--purple-hover);
     cursor: pointer;
 
 }
